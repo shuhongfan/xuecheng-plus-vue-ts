@@ -90,7 +90,7 @@
                   type="text"
                   @click.stop="handleAddSection(data.teachPlanTreeNodes, data.id)"
                 >添加小节</el-button>
-                <el-button type="text" @click.stop="handleDeleteNode(data.teachPlanId)">删除本章</el-button>
+                <el-button type="text" @click.stop="handleDeleteNode(data.id)">删除本章</el-button>
                  <!-- 上移 -->
                 <el-button type="text" @click.stop="moveUP(data.id)">上移</el-button>
                 <!-- 下移 -->
